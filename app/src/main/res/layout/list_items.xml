@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="24dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="6dp"
+    app:cardElevation="24dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rtyryuty"
+            android:textStyle="bold|italic"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtuserid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:layout_below="@id/txtid"
+            android:text="rtyryuty"
+            android:textColor="#000"
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtuserid"
+            android:text="rtyryuty"
+            android:textStyle="bold|italic"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtbody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txttitle"
+            android:text="rtyryuty"
+            android:textStyle="bold|italic"
+            android:textColor="#000"
+            android:textSize="18sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Approve"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/txtbody"
+            android:layout_marginStart="15dp"
+            android:textAllCaps="false"
+            android:id="@+id/approve"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reject"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/txtbody"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp"
+            android:id="@+id/reject"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
